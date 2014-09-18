@@ -1,1 +1,2 @@
 from stocker.realtime.RealtimeDataManager import RealTimeDataManager
+from stocker.Stocker import Stocker

@@ -21,7 +21,6 @@ class DataManager(object):
         if timestamp == None:
             timestamp = current_time
             
-
         if current_time - timestamp <= DataManager.REALTIME_THRESHOLD:
             # this means we are live.
             price, time_of_price = self.realtime_data_manager.get_stock_price(symbol)
